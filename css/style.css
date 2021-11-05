@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: work sans;
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"]{
+	float: left;
+}
+
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%}
+.col-3 {width:25%;}
+.col-4 {width:33.3%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.6%;}
+.col-12 {width:100%;}
+
+.wrapper {
+	width: 100%;
+	max-width: 1539px;
+	margin: 0 auto;
+}
+
+.bg-header {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.bg-menu {
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	float: right;
+}
+
+nav ul li.logo {
+	float: left;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 2rem 0;
+	font-size: 1.7em;
+	text-decoration: none;
+	color: #333;
+}
+
+nav ul li a:hover {
+	color: #00a8ff;
+	transition: .7s;
+}
+
+.text-banner {
+	margin-top: 10%;
+}
+
+.text-banner h1{
+	color: #e84118;
+	font-size: 8.5rem;
+}
+
+.text-banner h3{
+	font-size: 1.7rem;
+	color: #333;
+	letter-spacing: 2px;
+}
+
+.btn-banner{
+	margin: 7% 0;
+	padding: 1rem 1.3rem;
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: .7s;
+}
+
+.btn-banner:hover {
+	background-color: #e84118;
+	border: 1px solid #e84118;
+}
+
+.img-banner {
+	margin-top: 10%;
+}
+
+.img-banner img {
+	width: 100%;
+}
+
+.bg-about {
+	margin: 5% 0;
+	background-color: #1d1d1d;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	padding: 7% 0;
+}
+
+.about {
+	margin: .9rem;
+}
+
+.about img {
+	width: 100%;
+}
+
+.about h1{
+	color: #fff;
+	font-size: 2.6em;
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+.about p {
+	color: #666;
+	padding-left: 10%;
+	padding-top: 1.1rem;
+	line-height: 1.7;
+}
+
+.bg-portfolio {
+	width: 85%;
+	margin: 7% auto;
+}
+
+.judul {
+	text-align: center;
+	padding: 5% 0;
+}
+
+.judul h1{
+	font-size: 2.9em;
+	color: #333;
+}
+
+.portfolio {
+	margin: 0;
+}
+
+.portfolio img {
+	width: 100%;
+}
+
+.bawah {
+	margin-top: -5px;
+}
+
+.bg-team {
+	background-color: #ececec;
+}
+
+.team {
+	margin: .9rem;
+}
+
+.team img {
+	width: 100%;
+}
+
+.bg-footer {
+	background-color: #1d1d1d;
+}
+
+.footer h1 {
+	color: #fff;
+	padding: 1.9rem 0;
+}
+
+.footer p {
+	color: #d1d1d1;
+	line-height: 35px;
+}
